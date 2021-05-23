@@ -1,0 +1,67 @@
+h1{
+    font-family:  'Baloo Thambi 2', cursive;
+    font-size: 7vw;
+    color: white;
+    margin-top: x;
+    padding: 50px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+}
+.title{
+    text-align: center;
+background-color:#e76f51;
+height: 600px;
+ box-sizing: border-box;
+}
+.bio{
+    text-align: center;
+    font-family:  'Baloo Thambi 2', cursive;
+    font-size: 25px;
+    line-height: 70px;
+    background-color: #f4a261;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.poem{
+    background-color:#e9c46a ;
+}
+#final{
+    text-align:center;
+    font-size:50px;
+    font-family:  'Baloo Thambi 2', cursive;
+    box-sizing: border-box;
+}
+@media (min-width: 0px ) and  (max-width: 900px  ) {
+    .title{
+        height: 400px;
+    }
+    
+}
+
+.download{
+    text-align: center;
+    border: 2px solid #fec5bb;
+    border-radius: 30px;
+   background-color: #fcd5ce;
+   color: black;
+    
+   font-family:  'Baloo Thambi 2', cursive;
+    padding: 10px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+
+
+    transition: 1s;}
+    .download:hover{
+        background-color: #fec5bb;
+    }
